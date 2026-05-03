@@ -15,4 +15,4 @@ EOF
 chmod +x $PREFIX/bin/gojo
 chmod +x $PREFIX/bin/gojo.py
 
-echo "[GOJO] Installation complete. Run: gojo -a 8"
+echo "[GOJO] Installation complete. Run: gojo -a 50"
