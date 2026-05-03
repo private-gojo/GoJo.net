@@ -240,7 +240,7 @@ def start_proxy(port, ip_pool, attempts):
 
 def main():
     parser = argparse.ArgumentParser(description="GOJO - Allnet Proxy Rotator")
-    parser.add_argument("-a", type=int, default=8, help="Attempt count (default: 8)")
+    parser.add_argument("-a", type=int, default=50, help="Attempt count (default: 50)")
     parser.add_argument("-port", type=int, default=7777, help="Listen port (default: 7777)")
     parser.add_argument("-allnet", action="store_true", help="Use all IPs")
     args = parser.parse_args()
